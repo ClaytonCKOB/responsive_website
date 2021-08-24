@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CKOB - Produções</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!--Fontes-->
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   
+   <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
+    <!--Parallax-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    
+</head>
+<body>
+    <header>
+        <!--
+            Existem algumas nomenclaturas próprias 
+            do bootstrap que se deve usar, como con-
+            tainer, navbar-expand-lg, dentre outros.
+            Esses nomes permitem a configuração dos 
+            elementos pelo bootstrap.
+        -->
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="#">
+                    <img id="logo" src="img/logo.png" alt="CKOB logo">
+                </a>
+                <!--
+                Esse botão será usado na versão
+                mobile.
+                navbar-toggler indica que o ele-
+                mento não será mostrado na versão
+                site.
+                -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" 
+                aria-controls="navbar-linds" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar">
+                        <a href="#banner_inicial" class="nav-item nav-link" id="home-menu">Home</a>
+                        <a href="#sites-area" class="nav-item nav-link" id="sites-menu">Sites</a>
+                        <a href="#design-area" class="nav-item nav-link" id="design-menu">Design</a>
+                        <a href="#automatizacao-area" class="nav-item nav-link" id="auto-menu">Automatização</a>
+                        <a href="#about-area" class="nav-item nav-link" id="about-menu">Sobre</a>
+                        <a href="#contato-area" class="nav-item nav-link" id="contact -menu">Contato</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!--Container-fluid ocupa toda a tela-->
+        <!-- slider -->
+            <div id="banner_inicial">
+              <img src="img/banner1.png" class="img-fluida" alt="Responsive image">  
+                <!-- <a href="#contato-area" class="btn btn-1 btn-1a" id="contato">Entre em contato</a>-->
+            </div> 
+        <!--ÁREA SITE-->
+        <div id="sites-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Construção de Sites</h3>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/agencia.jpg" alt="Imagem da agência" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Serviços que transformam</h4>
+                        <p>It is a long established fact that a reader will be distracted by 
+                            the readable content of a page when looking at its layout. The point 
+                            of using Lorem Ipsum is that it has a more-or-less normal distribution 
+                            of letters, as opposed to using 'Content here, content here', making 
+                            it look like readable English.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--ÁREA DESIGN-->
+        <div id="design-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Design</h3>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/agencia.jpg" alt="Imagem da agência" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Serviços que transformam</h4>
+                        <p>It is a long established fact that a reader will be distracted by 
+                            the readable content of a page when looking at its layout. The point 
+                            of using Lorem Ipsum is that it has a more-or-less normal distribution 
+                            of letters, as opposed to using 'Content here, content here', making 
+                            it look like readable English.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--ÁREA AUTOMATIZAÇÃO-->
+        <div id="automatizacao-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Automatização</h3>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/agencia.jpg" alt="Imagem da agência" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Serviços que transformam</h4>
+                        <p>It is a long established fact that a reader will be distracted by 
+                            the readable content of a page when looking at its layout. The point 
+                            of using Lorem Ipsum is that it has a more-or-less normal distribution 
+                            of letters, as opposed to using 'Content here, content here', making 
+                            it look like readable English.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--ÁREA SOBRE-->
+        <div id="about-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Sobre a CKOB</h3>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/agencia.jpg" alt="Imagem da agência" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Serviços que transformam</h4>
+                        <p>It is a long established fact that a reader will be distracted by 
+                            the readable content of a page when looking at its layout. The point 
+                            of using Lorem Ipsum is that it has a more-or-less normal distribution 
+                            of letters, as opposed to using 'Content here, content here', making 
+                            it look like readable English.</p>
+                        <ol id="about-list">
+                            <li><i class="fas fa-check"></i>Sites responsivos.</li>
+                            <li><i class="fas fa-check"></i>Sites responsivos.</li>
+                            <li><i class="fas fa-check"></i>Sites responsivos.</li>
+                            <li><i class="fas fa-check"></i>Sites responsivos.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contato-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Contato</h3>
+                    </div>
+                    <div class="col-md-6">
+
+                    </div>
+                    <div class="col-md-6">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="contato-area"></div>
+    </main>
+    <footer>
+        <img src="img/logo.png" alt="Logo CKOB">
+        <p>@CKOB Webproduções</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
