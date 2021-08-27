@@ -12,6 +12,7 @@
     
     <!--Fontes-->
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
    
    <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -34,7 +35,7 @@
         <div class="container" id="nav-container">
             <nav class="navbar navbar-expand-lg fixed-top">
                 <a href="#">
-                    <img id="logo" src="img/logo.png" alt="CKOB logo">
+                    <img class="logo" src="img/logo.png" alt="CKOB logo">
                 </a>
                 <!--
                 Esse botão será usado na versão
@@ -161,25 +162,45 @@
                 </div>
             </div>
         </div>
-        <div id="contato-area">
-            <div class="container">
-                <div class="row">
+        <div class="contato-area">
+            <div class="container-fluid">
+                <div class="contact-form row">
                     <div class="col-12">
-                        <h3 class="main-title">Contato</h3>
-                    </div>
-                    <div class="col-md-6">
+                        <h3 class="main-title">Entre em Contato</h3>
+                        <form action="#">
+                            <div class="form-field col-lg-12">
+                                <div>
+                                    <input type="text" class="input-data">
+                                    <label>Nome</label>
+                                </div>
+                            </div>
+                            <div class="form-field col-lg-12">
+                                <div>
+                                    <input type="text" class="input-data">
+                                    <label>Email</label>
+                                </div>
+                            </div>
+                            <div class="form-field col-lg-12 textarea">
+                                <div>
+                                    <textarea class="input-data" cols="30" rows="10"></textarea>
+                                    <label>Mensagem</label>
+                                </div>
+                            </div>
+                            <div class="form-field col-lg-6 ">
+                                <div>
+                                    <div class="inner"></div>
+                                    <input type="submit" class="submit-btn" value="submit">
+                                </div>
+                            </div>
 
-                    </div>
-                    <div class="col-md-6">
-
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container" id="contato-area"></div>
     </main>
     <footer>
-        <img src="img/logo.png" alt="Logo CKOB">
+        <img class="logo" src="img/logo.png" alt="Logo CKOB">
         <p>@CKOB Webproduções</p>
     </footer>
     <script src="js/scripts.js"></script>
